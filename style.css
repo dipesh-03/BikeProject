@@ -1,0 +1,97 @@
+html{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(#FC5E55,#FA4083);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1.125rem;
+}
+.container{
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    padding-top: 15px;
+    display: flex;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+main{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+.cards{
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.cards1{
+    background-image: url(images/image-background-card1.jpg);
+    /* cover sets it size according to block */
+    background-size: cover;
+    /* position bottom means if image is to be chopped it will  be chopped from top */
+    background-position: bottom;
+    min-height: 300px;
+    width: 30%;
+}
+.cards2{
+    background-image: url(images/image-background-card2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 300px;
+    width: 30%;
+}
+.cards3{
+    background-image: url(images/image-background-card3.jpg);
+    background-size: cover;
+    background-position: bottom;
+    min-height: 300px;
+    width: 30%;
+}
+.herobox1{
+    flex: 2;
+    padding-right: 100px;
+}
+.herobox2{
+    flex: 1;
+}
+.herobox2 img{
+    width: 100%;
+}
+h1{
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+}
+h2{
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+}
+p{
+    line-height: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+.cards p{
+    font-size: 0.85rem;
+    line-height: 1.2rem;
+    margin: 10px 30px 20px 30px;
+}
+i{
+    font-size: 100px;
+    padding-top: 30px;
+}
+.cards a{
+    color: white;
+    text-decoration: none;
+}
